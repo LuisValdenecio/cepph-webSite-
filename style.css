@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+/*--------------------------------------------------------------
+# Helper Utilities
+--------------------------------------------------------------*/
+.flex {
+    display: flex !important;
+}
+
+
+/*--------------------------------------------------------------
+# Homepage
+--------------------------------------------------------------*/
+/*
+# Icon Box
+--------------------------------*/
+.icon-boxes {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.icon-box {
+    width: 25%;
+    padding: 50px 60px 50px;
+    border-right: 1px solid #ebebeb;
+}
+
+@media screen and (max-width: 1440px){
+    .icon-box {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .icon-box {
+        width: 50%;
+    }
+
+    .icon-box:nth-of-type(2) {
+        border-right: 0;
+    }
+
+    .icon-box:nth-of-type(1),
+    .icon-box:nth-of-type(2) {
+        border-bottom: 1px solid #ebebeb;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .icon-box {
+        width: 100%;
+        border-right: 0;
+        border-bottom: 1px solid #ebebeb;
+    }
+}
+
+.icon-box:nth-last-of-type(1) {
+    border-right: 0;
+}
+
+.icon-box .icon {
+    font-size: 42px;
+    color: #19c880;
+}
+
+.icon-box .entry-title {
+    margin-top: 12px;
+    font-size: 22px;
+}
+
+.icon-box .entry-content p {
+    margin: 12px 0;
+    color: #757686;
+    line-height: 1.6;
+}
+
+.icon-box .read-more a {
+    position: relative;
+    padding-right: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #19c880;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.icon-box .read-more a .fa {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transition: all .35s;
+}
+
+.icon-box:hover .read-more a .fa {
+    left: 100%;
+}
+
+
+
+a.btn {
+    padding: 16px 48px;
+    border: 2px solid #34d986;
+    border-radius: 0;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #383749;
+    text-decoration: none;
+}
+
+a.btn:hover {
+    color: #fff;
+    background: #34d986;
+}
+

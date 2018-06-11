@@ -7,4 +7,8 @@ jQuery(function($) {'use strict';
     $(window).resize(function(){'use strict',
         $('#home-slider .item').css('height', slideHeight)
     });
+
+    // the photo sliders
+ 
+
 });

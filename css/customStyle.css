@@ -9,23 +9,28 @@
 
 #home-slider .caption {
   position: absolute;
-  top: 50%;
+  top: 60%;
   margin-top: -104px;
   left: 0;
   right: 0;
   text-align: center;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   z-index: 15;
-  font-size: 18px;
+  font-size: 23px;
   font-weight: 300;
   color: #fff;
 }
 
 #home-slider .caption h1 {
   color: #fff;
-  font-size: 60px;
+  font-size: 75px;
   font-weight: 700;
   margin-bottom: 30px;
+}
+
+#home-slider .caption p {
+  line-height: 30px;
+  font-weight: bold;
 }
 
 .carousel-fade .carousel-inner .item {
@@ -45,7 +50,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,0,0,.8);  
+  background: rgba(0,0,0,.8);
 }
 
 .carousel-fade .carousel-inner .active {
