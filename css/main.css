@@ -282,3 +282,46 @@ ul.sub-menu {
   }
 }
 
+/**********************
+Aditional css format
+**********************/
+.main-content-holder {
+   color: #fff; 
+   font-size: 18px; 
+   letter-spacing: 1px;
+}
+
+.calendar-entry .course_body {
+    border-top: solid 2px yellow;
+    background-color: #cb2e2e;
+}
+
+.event_date {
+    background-color: #cb2e2e;
+    border: solid #cb2e2e;
+}
+
+.event_day, .event_month {
+   color: #fff;
+}
+
+.course_title a, .course_info ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.course_title a:hover, .course_info ul li a:hover {
+    text-decoration: none;
+    color: #d9d3cb;
+} 
+
+.calendar-text {
+    text-align: center;
+    color: #cb2e2e;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.course_text p {
+    color: #fff;
+}
