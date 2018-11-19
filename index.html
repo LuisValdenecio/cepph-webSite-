@@ -27,10 +27,10 @@
         <!-- Bootstrap FOUR -->
         <link rel="stylesheet" type="text/css" href="css/boootstrap.min.css">
 
-		 	<!--[if lt IE 9]>
-	      <script src="js/html5shiv.js"></script>
-	   		<script src="js/respond.min.js"></script>
-		 	<![endif]-->
+	    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.min.js"></script>
+	    <![endif]-->
 
 	</head>
 
@@ -51,20 +51,9 @@
 									    <div class="top_bar_lang">
 										    <ul class="lang_list">
 											    <li class="hassubs">
-												    <a href="#">Serviços<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-												    <ul>
-													    <li><a href="#">moodle</a></li>
-													    <li><a href="#">Reservas</a></li>
-													    <li><a href="#">Candidaturas</a></li>
-                                                        <li><a href="#">Calendário</a></li>
-												    </ul>
-											    </li>
+												    <a href="/moodle">MOODLE</a>
+												</li>
 										    </ul>
-									    </div>
-
-									    <!-- Social -->
-									    <div class="top_bar_social">
-										    <span class="top_bar_title social_title"><i class="fa fa-envelope"></i><a href="cepph@gmail.com"> cepph@cepph.com</a></span>
 									    </div>
 								    </div>
 							    </div>
@@ -83,39 +72,22 @@
 							    <div class="logo_container mr-auto">
 								    <a href="#">
 									    <div class="logo_text">
-                                            <img src="img/logo.png" width="60%" height="60%"/>
+                                            <img src="img/logo.png"/>
 									    </div>
 								    </a>
 							    </div>
 							    <nav class="main_nav_contaner">
 								    <ul class="main_nav">
-									    <li class=""><a href="index.html">Sobre Nós</a></li>
-									    <li><a href="courses.html">Cursos</a></li>
-									    <li><a href="instructors.html">Calendário</a></li>
-									    <li><a href="blog.html">Contactos</a></li>
-                                        <li><a href="blog.html">Galeria</a></li>
+                                        <li><a href="#calendario">Calendário</a></li>
+                                        <li class=""><a href="#sobrenos">Sobre Nós</a></li>
+									    <li><a href="#cursos">Cursos</a></li>									    
+									    <li><a href="#contactos">Contactos</a></li>
+                                        <li><a href="#">Galeria</a></li>
 								    </ul>
 							    </nav>
 							    <div class="header_content_right ml-auto text-right">
-								    <div class="header_search">
-									    <div class="search_form_container">
-										    <form action="#" id="search_form" class="search_form trans_400">
-											    <input type="search" class="header_search_input trans_400" placeholder="Type for Search" required="required">
-											    <div class="search_button">
-												    <i class="fa fa-search" aria-hidden="true"></i>
-											    </div>
-										    </form>
-									    </div>
-								    </div>
-
-								    <!-- Hamburger -->
-
-								    <div class="user"><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i></a></div>
-								    <div class="hamburger menu_mm">
-									    <i class="fa fa-bars menu_mm" aria-hidden="true"></i>
-								    </div>
+								    
 							    </div>
-
 						    </div>
 					    </div>
 				    </div>
@@ -153,7 +125,7 @@
 
 		<!-- Eventos -->
 
-		<div class="courses">
+		<div class="courses" id="calendario">
 			<div class="courses_background"></div>
 			<div class="container">
 				<div class="row">
@@ -169,30 +141,19 @@
 						<div class="course">
 							<div class="course_image"><img src="img/slider/5.jpg" alt=""></div>
 							<div class="event_date d-flex flex-column align-items-center justify-content-center">
-								<div class="event_day">10</div>
-								<div class="event_month">mar</div>
+								<div class="event_day">23</div>
+								<div class="event_month">nov</div>
 							</div>
 							<div class="calendar-entry">
 								<div class="course_body">
-									<div class="course_title"><a href="course.html">Canto da leitura</a></div>
+									<div class="course_title"><a href="course.html">Incío das provas globais em todas as disciplinas</a></div>
 									<div class="course_info">
-										<ul>
-											<li><a href="instructors.html">António Morais</a></li>
-											<li><a href="#">Aux. Educativo</a></li>
-										</ul>
 									</div>
 									<div class="course_text">
 										<p>O Canto do saber é o lugar onde todos os estudantes têm a possibilidade de demonstrar as suas habilidades de leitura e escrita</p>
 									</div>
 								</div>
-                                <!---
-								<div class="course_footer d-flex flex-row align-items-center justify-content-start">
-									<div class="course_students"><i class="fa fa-user" aria-hidden="true"></i><span>10 Inscritos</span></div>
-									<div class="course_rating ml-auto"><i class="fa fa-star" aria-hidden="true"></i><span>4,5</span></div>
-									<div class="course_mark course_free trans_200 register-event"><a href="#">Cadastrar</a></div>
-								</div>
-                                    -->
-						</div>
+                       		</div>
 						</div>
 					</div>
 
@@ -201,29 +162,18 @@
 						<div class="course">
 							<div class="course_image"><img src="img/slider/_.jpg" alt=""></div>
 							<div class="event_date d-flex flex-column align-items-center justify-content-center">
-								<div class="event_day">26</div>
-								<div class="event_month">set</div>
+								<div class="event_day">03</div>
+								<div class="event_month">dez</div>
 							</div>
 							<div class="calendar-entry">
 								<div class="course_body">
-									<div class="course_title"><a href="course.html">Debates Académicos</a></div>
+									<div class="course_title"><a href="course.html">Comfirmação das matriculas para o ano lectivo de 2019</a></div>
 									<div class="course_info">
-										<ul>
-											<li><a href="instructors.html">António Morais</a></li>
-											<li><a href="#">Aux. Educativo</a></li>
-										</ul>
 									</div>
 									<div class="course_text">
 										<p>O Canto do saber é o lugar onde todos os estudantes têm a possibilidade de demonstrar as suas habilidades de leitura e escrita</p>
 									</div>
 								</div>
-                                <!--
-								<div class="course_footer d-flex flex-row align-items-center justify-content-start">
-									<div class="course_students"><i class="fa fa-user" aria-hidden="true"></i><span>10 Inscritos</span></div>
-									<div class="course_rating ml-auto"><i class="fa fa-star" aria-hidden="true"></i><span>4,5</span></div>
-									<div class="course_mark course_free trans_200 register-event"><a href="#">Cadastrar</a></div>
-								</div>
-                                    -->
 						</div>
 						</div>
 					</div>
@@ -233,17 +183,13 @@
 						<div class="course">
 							<div class="course_image"><img src="img/slider/_.jpg" alt=""></div>
 							<div class="event_date d-flex flex-column align-items-center justify-content-center">
-								<div class="event_day">4</div>
-								<div class="event_month">nov</div>
+								<div class="event_day">10</div>
+								<div class="event_month">jan</div>
 							</div>
 							<div class="calendar-entry">
 								<div class="course_body">
-									<div class="course_title"><a href="course.html">Discursos & Oratória</a></div>
+									<div class="course_title"><a href="course.html">Matriculas e Inscrições para novos Estudantes</a></div>
 									<div class="course_info">
-										<ul>
-											<li><a href="instructors.html">António Morais</a></li>
-											<li><a href="#">Professor</a></li>
-										</ul>
 									</div>
 									<div class="course_text">
 										<p>O Canto do saber é o lugar onde todos os estudantes têm a possibilidade de demonstrar as suas habilidades de leitura e escrita</p>
@@ -267,66 +213,34 @@
 
 		<!-- Register -->
 
-		<div class="register" style="background-image: url(img/slider/books.jpg)">
+		<div class="register" style="background-image: url(img/slider/sobreNos.jpg)" id="sobrenos">
 			<div class="container">
 				<div class="row">
 
 					<!-- Register Form -->
 
-					<div class="col-lg-6 wow fadeInLeft caption" data-wow-duration="700ms" data-wow-delay="600ms">
-						<div class="register_form_container">
-							<div class="register_form_title">Envie uma requisição</div>
-							<form action="#" id="register_form" class="register_form">
-								<div class="row register_row">
-									<div class="col-lg-6 register_col">
-										<input type="text" class="form_input" placeholder="Name" required="required">
-									</div>
-									<div class="col-lg-6 register_col">
-										<input type="email" class="form_input" placeholder="Email" required="required">
-									</div>
-									<div class="col-lg-6 register_col">
-										<input type="tel" class="form_input" placeholder="Phone">
-									</div>
-									<div class="col-lg-6 register_col">
-										<input type="url" class="form_input" placeholder="Site">
-									</div>
-									<div class="col">
-										<button type="submit" class="form_button trans_200 register-event">Eniviar Requisição</button>
-									</div>
-								</div>
-							</form>
-						</div>
+					<div class="col-lg-12 wow fadeInUpBig caption" data-wow-duration="700ms" data-wow-delay="600ms">
+            
+                        <div class="caption sobre-nos">
+                            <h1>Sobre Nós</h1>
+                            <p class="main-content-holder">
+                                A Escola Politêcnica do Huambo é uma instituição privada de énsino, fundada no ano de 2007 pela familia Marcelino, conjuntamente
+                                com a Gustave Effiel de Portugal. Desde há uma década e um ano que o agora complexo escolar privado politêcnico do Huambo se tem
+                                firmado pela incessante busca de valores que contribuam para uma melhor experiência de ensino para os nossos estudantes e uma melhor
+                                jornada profissional para os nossos colaboradores.
+                            </p>
+                        </div>
+						
 					</div>
 
-					<!-- Register Timer -->
-
-					<div class="col-lg-6 wow fadeInRight caption" data-wow-duration="700ms" data-wow-delay="300ms">
-						<div class="register_timer_container">
-							<div class="register_timer_title">Reserve uma vaga</div>
-							<div class="register_timer_text">
-								<p style="color: white">As Reservas são feitas no início do Iº Trimestre para todos os níveis de ensino.
-										Preencha o quadro a direita para enviar uma requisição de reserva ao nosso departamento de reservas e documentos.
-								</p>
-							</div>
-							<div class="timer_container">
-								<ul class="timer_list">
-									<li><div id="day" class="timer_num">00</div><div class="timer_ss">dias</div></li>
-									<li><div id="hour" class="timer_num">00</div><div class="timer_ss">horas</div></li>
-									<li><div id="minute" class="timer_num">00</div><div class="timer_ss">minutos</div></li>
-									<li><div id="second" class="timer_num">00</div><div class="timer_ss">segundos</div></li>
-								</ul>
-						    </div>
-					    </div>
-				    </div>
 			    </div>
 		    </div>
 	    </div>
 
         
-        <div class="container">
+        <div class="container" id="cursos">
             <!-- Blog Posts -->
 
-            
 
             <div class="row blog_row">
 
@@ -337,7 +251,10 @@
                         <div class="blog_title_container">
                             <div class="blog_post_title"><a href="blog_single.html">Contabilidade</a></div>
                             <div class="blog_post_text">
-                                <p>O Curso de contabilidade é composto de 20 disciplinas durante os quatro anos currículares.</p>
+                                <p>
+                                    O curso técnico de contabilidade prepara o estudante para o exercício
+                                    da contabilidade em organizações de pequeno e medio porte.
+                                </p>
                             </div>
                             <div class="read_more"><a href="" data-toggle="modal" data-target="#curricModal">ver plano currículo<img src="images/right.png" alt=""></a></div>
                         </div>
@@ -351,9 +268,12 @@
                         <div class="blog_title_container">
                             <div class="blog_post_title"><a href="blog_single.html">Informática</a></div>
                             <div class="blog_post_text">
-                                <p>Whether it is a signup flow, a multi-view stepper, or a monotonous data entry interface, forms are one of the most important components of digital product design.</p>
+                                <p>
+                                    A informática é actualmente indispensável em qualquer organização, este curso prepara o estudante para o exercício 
+                                    das mais diversas aréas da informática.
+                                </p>
                             </div>
-                            <div class="read_more"><a href="" data-toggle="modal" data-target="#curricModal">Read More <img src="images/right.png" alt=""></a></div>
+                            <div class="read_more"><a href="" data-toggle="modal" data-target="#curricModal">ver plano currículo <img src="images/right.png" alt=""></a></div>
                         </div>
                     </div>
                 </div>
@@ -365,9 +285,11 @@
                         <div class="blog_title_container">
                             <div class="blog_post_title"><a href="blog_single.html">OCC</a></div>
                             <div class="blog_post_text">
-                                <p>Whether it is a signup flow, a multi-view stepper, or a monotonous data entry interface, forms are one of the most important components of digital product design.</p>
+                                <p>
+                                Para um país em crescimento, o ramo das engenharias civís é definitivamente uma aréa de extrema importância. 
+                                </p>
                             </div>
-                            <div class="read_more"><a href="" data-toggle="modal" data-target="#curricModal">Read More <img src="images/right.png" alt=""></a></div>
+                            <div class="read_more"><a href="" data-toggle="modal" data-target="#curricModal">ver plano currículo <img src="images/right.png" alt=""></a></div>
                         </div>
                     </div>
                 </div>
@@ -697,6 +619,60 @@
         </div>
 
 
+        <!-- Contact -->
+
+        <div class="contact" id="contactos">
+
+            <div class="container">
+                <div class="row row-lg-eq-height">
+
+                    <!-- Details -->
+                    <div class="col-lg-12 wow fadeInRight" data-wow-duration="800ms" data-wow-delay="800ms">
+                        <div class="contact_details">
+                            <div class="contact_details_title">Contactos</div>
+                            <ul>
+                                <li>
+                                    <svg fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z" />
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z" />
+                                    </svg>
+                                    <span>7:30 - 17:30 </span>
+                                </li>
+                                <li>
+                                    <svg fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                                    </svg>
+                                    <span>+244 300 303 0266 | +244</span>
+                                </li>
+                                <li>
+                                    <svg fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                    </svg>
+                                    <span>cepph@cepph.com</span>
+                                </li>
+                                <li>
+                                    <svg fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                    </svg>
+                                    <span>Rua Vicente Ferreira - Huambo - Angola</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+
+        
+
+    
 
 
 

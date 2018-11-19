@@ -1164,7 +1164,8 @@ section
 .main_nav li a:hover,
 .main_nav li.active a
 {
-	color: rgba(0,0,0,0.8);
+	color: #cb2e2e;
+    text-decoration: none;
 }
 .header_content_right
 {

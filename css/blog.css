@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 
 /******************************
@@ -1032,8 +1032,8 @@ section
 	top: calc(100% - 120px);
 	width: 82%;
 	height: 100%;
-	background: #FFFFFF;
-	border: solid 1px #ebebeb;
+	background: #cb2e2e;
+	border: solid 1px #cb2e2e;
 	padding-left: 39px;
 	padding-right: 40px;
 	padding-top: 28px;
@@ -1080,9 +1080,16 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
+
+.blog_post_title a
+{
+    color: #fff;
+}
+
 .blog_post_title a:hover
 {
-	color: #2e21df;
+    color: #fff;
+    text-decoration: none;
 }
 .blog_post_text
 {
@@ -1092,7 +1099,7 @@ section
 {
 	font-size: 16px;
 	line-height: 2;
-	color: rgba(0,0,0,0.6);
+	color: #fff;
 }
 .read_more
 {
@@ -1102,7 +1109,11 @@ section
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #2e21df;
+	color: #fff;
+}
+.read_more a:hover
+{
+	color: #fff;
 }
 .read_more img
 {
