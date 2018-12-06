@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 
 /******************************
@@ -49,7 +49,7 @@ body
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-	background: #FFFFFF;
+	background: #fff;
 	color: #a5a5a5;
 }
 div
@@ -161,6 +161,7 @@ section
 {
 	zoom: 1;
 }
+
 .float_left
 {
 	float: left;
@@ -246,6 +247,12 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
+
+.moodle-placer {
+    font-weight: bold;
+    font-size:15px;
+}
+
 .header.scrolled
 {
 	top: -51px;
@@ -259,12 +266,12 @@ section
 {
 	width: 100%;
 	background: #FFFFFF;
-	border-bottom: solid 1px yellow; /*Para mudaar a cor da borda da barra*/
 	z-index: 10;
 }
 .top_bar_container
 {
 	width: 100%;
+    background: #2b7fd0;
 }
 .top_bar_content
 {
@@ -275,10 +282,11 @@ section
 }
 .top_bar_phone
 {
-
+   color: #fff;
 }
 .top_bar_title
 {
+    color: #fff;
 	margin-right: 10px;
 	letter-spacing: 0.075em;
 }
@@ -293,11 +301,13 @@ section
 .lang_list > li
 {
 	display: inline-block;
+  
 }
 .lang_list li a
 {
-	color: #f09e08;
+	color: #fff;
 	padding-top: 17px;
+    text-decoration: none;
 	padding-bottom: 17px;
 }
 .lang_list li a:hover
@@ -386,6 +396,7 @@ section
 .header_container
 {
 	width: 100%;
+    padding: 20px;
 	background: #FFFFFF;
 }
 
@@ -478,9 +489,9 @@ section
 }
 .main_nav li a
 {
-	font-size: 14px;
-	font-weight: bold;
-	color: orange;
+	font-size: 15px;
+	font-weight: 500;
+	color: #2e21df;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
