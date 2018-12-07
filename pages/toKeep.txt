@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <div class="container" id="cursos">
+        <!-- Blog Posts -->
+        <div class="row blog_row">
+
+            <!-- Blog Post -->
+            <div class="col-lg-4 col-lg-4 course_col wow fadeInRight" data-wow-duration="900ms" data-wow-delay="900ms">
+                <div class="blog_post">
+                    <div class="blog_image" style="background-image:url(img/cont.jpg)"></div>
+                    <div class="blog_title_container">
+                        <div class="blog_post_title"><a href="blog_single.html">Contabilidade</a></div>
+                        <div class="blog_post_text">
+                            <p>
+                                O curso técnico de contabilidade prepara o estudante para o exercício
+                                da contabilidade em organizações de pequeno e medio porte.
+                            </p>
+                        </div>
+                        <!-- <div class="read_more"><a href="" data-toggle="modal" data-target="#curricModal">ver plano currículo<img src="images/right.png" alt=""></a></div> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Post -->
+            <div class="col-lg-4 col-lg-4 course_col wow fadeInRight" data-wow-duration="800ms" data-wow-delay="800ms">
+                <div class="blog_post">
+                    <div class="blog_image" style="background-image:url(img/infor.jpg)"></div>
+                    <div class="blog_title_container">
+                        <div class="blog_post_title"><a href="blog_single.html">Informática</a></div>
+                        <div class="blog_post_text">
+                            <p>
+                                A informática é actualmente indispensável em qualquer organização, este curso prepara o estudante para um ambiente profissional
+                            </p>
+                        </div>
+                        <!-- <div class="read_more"><a href="" data-toggle="modal" data-target="#curricModal">ver plano currículo <img src="images/right.png" alt=""></a></div> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Post -->
+            <div class="col-lg-4 col-lg-4 course_col wow fadeInRight" data-wow-duration="700ms" data-wow-delay="700ms">
+                <div class="blog_post">
+                    <div class="blog_image" style="background-image:url(img/occ.jpg)"></div>
+                    <div class="blog_title_container">
+                        <div class="blog_post_title"><a href="blog_single.html">OCC</a></div>
+                        <div class="blog_post_text">
+                            <p>
+                                Para um país em crescimento, o ramo das engenharias civís é definitivamente uma aréa de extrema importância.
+                            </p>
+                        </div>
+                        <!-- <div class="read_more"><a href="" data-toggle="modal" data-target="#curricModal">ver plano currículo <img src="images/right.png" alt=""></a></div> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="register plano-cont" style="background-image: url(img/cont.jpg)" id="sobrenos">
+        <div class="container">
+            <div class="row">
+
+                <!-- Register Form -->
+
+                <div class="col-lg-12 wow fadeInRightBig caption" data-wow-duration="700ms" data-wow-delay="600ms">
+
+                    <div class="caption sobre-nos plano-curricular">
+                        <h1>Plano curricular do curso Técnico de Contabilidade</h1>
+
+                        <table class="table table-condensed">
+                            <thead>
+                                <tr>
+                                    <th>Disciplina</th>
+                                    <th>10ªClasse</th>
+                                    <th>11ªClasse</th>
+                                    <th>12ªClasse</th>
+                                    <th>13ªClasse</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Língua Portuguêsa</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lígua Inglesa</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Formação de Atitudes Integradoras</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Educação Física</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Matemática</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Economia</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Informática Aplicada á Contabilidade</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Direito</td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Sociologia</td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Contabilidade Financeira</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Administração de Empresas</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Documentação e Legislação Comercial</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Técnicas de Cálculo e Estatística</td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Documentação e Legislação Fiscal</td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Contabilidade Analítica</td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Análise Económica e Financeira</td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Empreendedorismo</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Projecto Tecnológico</td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Estágio Curricular Supervisionado</td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="register plano-occ" style="background-image: url(img/occ.jpg)" id="sobrenos">
+        <div class="container">
+            <div class="row">
+
+                <!-- Register Form -->
+
+                <div class="col-lg-12 wow fadeInLeftBig caption" data-wow-duration="700ms" data-wow-delay="600ms">
+
+                    <div class="caption sobre-nos plano-curricular">
+                        <h1>Plano curricular do curso técnico de obras de Construção civíl</h1>
+
+                        <table class="table table-condensed">
+                            <thead>
+                                <tr>
+                                    <th>Disciplina</th>
+                                    <th>10ªClasse</th>
+                                    <th>11ªClasse</th>
+                                    <th>12ªClasse</th>
+                                    <th>13ªClasse</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Língua Portuguêsa</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lígua Inglesa</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Formação de Atitudes Integradoras</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Educação Física</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Matemática</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Física</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Química</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Informática</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Oraganização e Gestão Industrial</td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Empreendedorismo</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Desenho de Construção Civíl</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Técnicas de Construção Civíl</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Técnicas de Conducão de Obras - Edifícos</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Técnicas de Condução de Obras - Infraestruturas Urbanas</td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Técnicas de Topografia</td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Práticas Oficinais e Laboratoriais</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Técnicas de Medições e Orçamentos</td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Projecto Tecnológico</td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Estágio Curricular Supervisionado</td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="register plano-inf" style="background-image: url(img/infor.jpg)" id="sobrenos">
+        <div class="container">
+            <div class="row">
+
+                <!-- Register Form -->
+
+                <div class="col-lg-12 wow fadeInRightBig caption" data-wow-duration="700ms" data-wow-delay="600ms">
+
+                    <div class="caption sobre-nos plano-curricular">
+                        <h1>Plano curricular do curso técnico de Informática</h1>
+
+                        <table class="table table-condensed">
+                            <thead>
+                                <tr>
+                                    <th>Disciplina</th>
+                                    <th>10ªClasse</th>
+                                    <th>11ªClasse</th>
+                                    <th>12ªClasse</th>
+                                    <th>13ªClasse</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Língua Portuguêsa</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lígua Inglesa</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Formação de Atitudes Integradoras</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Educação Física</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Matemática</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Física</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Química</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Electrotecnia</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Oraganização e Gestão Industrial</td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Empreendedorismo</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Desenho Técnico</td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Técnincas e Linguagem de Programação</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Técnicas de Reparação de Equipamentos Informáticos</td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Sistemas de Exloração e Arquitectura de Computadores</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tecnologias de Informação e de Comunicação</td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Projecto Tecnológico</td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Estágio Curricular Supervisionado</td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-close"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check"></i>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="body-container container-fluid" id="galeria">
+        <a class="menu-btn" href="javascript:void(0)">
+            <i class="ion ion-grid"></i>
+        </a>
+
+        <!--=================== side menu end====================-->
+        <!--=================== content body ====================-->
+        <div class="col-lg-12 col-md-9 col-12 body_block  align-content-center">
+            <div class="portfolio">
+                <div class="container">
+
+                    <div class="row" style="padding: 50px">
+                        <div class="col wow fadeInLeft">
+                            <h2 class="calendar-text">Galeria de Fotografias</h2>
+                        </div>
+                    </div>
+
+                    <!--=================== masaonry portfolio start====================-->
+                    <div class="grid img-container justify-content-center no-gutters">
+                        <div class="grid-sizer col-sm-12 col-md-6 col-lg-3"></div>
+                        <div class="grid-item branding  col-sm-12 col-md-6 col-lg-3">
+                            <a href="img/slider/1.jpg" title="Fotografia 1">
+                                <div class="project_box_one">
+                                    <img src="img/slider/1.jpg" alt="pro1" />
+                                    <div class="product_info"></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item  branding architecture  col-sm-12 col-md-6">
+                            <a href="img/slider/7.jpg" title="Fotografia 2">
+                                <div class="project_box_one">
+                                    <img src="img/slider/7.jpg" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item  design col-sm-12 col-md-6 col-lg-3">
+                            <a href="img/slider/3.JPG" title="Fotografia 3">
+                                <div class="project_box_one">
+                                    <img src="img/slider/3.JPG" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item  photography design col-sm-12 col-md-6 col-lg-3">
+                            <a href="img/slider/4.JPG" title="Fotografia 4">
+                                <div class="project_box_one">
+                                    <img src="img/slider/4.JPG" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item  branding photography  col-sm-12 col-md-6 col-lg-3">
+                            <a href="img/slider/5.JPG" title="Fotografia 5">
+                                <div class="project_box_one">
+                                    <img src="img/slider/5.JPG" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item   architecture design col-sm-12 col-md-6 col-lg-3">
+                            <a href="img/slider/8.jpg" title="Fotografia 6">
+                                <div class="project_box_one">
+                                    <img src="img/slider/8.jpg" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item  photography architecture col-sm-12 col-md-6 col-lg-3">
+                            <a href="img/slider/9.JPG" title="Fotografia 7">
+                                <div class="project_box_one">
+                                    <img src="img/slider/9.JPG" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item  branding design  col-sm-12 col-md-6 col-lg-3">
+                            <a href="img/slider/10.jpg" title="Fotografia 8">
+                                <div class="project_box_one">
+                                    <img src="img/slider/10.jpg" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item architecture  col-sm-12 col-md-6 col-lg-3">
+                            <a href="img/slider/11.JPG" title="Fotografia 9">
+                                <div class="project_box_one">
+                                    <img src="img/slider/11.JPG" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item  branding design  col-sm-12 col-md-6 col-lg-3">
+                            <a href="img/slider/12.JPG" title="Fotografia 10">
+                                <div class="project_box_one">
+                                    <img src="img/slider/12.JPG" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item architecture  col-sm-12 col-md-6 col-lg-3">
+                            <a href="img/slider/13.jpg" title="Fotografia 11">
+                                <div class="project_box_one">
+                                    <img src="img/slider/13.jpg" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!--=================== masaonry portfolio end====================-->
+                </div>
+            </div>
+        </div>
+        <!--=================== content body end ====================-->
+    </div>
+
+
+    <!-- Register -->
+
+    <div class="register" style="background-image: url(img/slider/sobreNos.jpg)" id="sobrenos">
+        <div class="container">
+            <div class="row">
+
+                <!-- Register Form -->
+
+                <div class="col-lg-12 wow fadeInUpBig caption" data-wow-duration="700ms" data-wow-delay="600ms">
+
+                    <div class="caption sobre-nos">
+                        <h1>Sobre Nós</h1>
+                        <p class="main-content-holder">
+                            A Escola Politêcnica do Huambo é uma instituição privada de énsino, fundada no ano de 2007 pela familia Marcelino, conjuntamente
+                            com a Gustave Effiel de Portugal. Desde há uma década e um ano que o agora complexo escolar privado politêcnico do Huambo se tem
+                            firmado pela incessante busca de valores que contribuam para uma melhor experiência de ensino para os nossos estudantes e uma melhor
+                            jornada profissional para os nossos colaboradores.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Contact -->
+
+    <div class="contact" id="contactos">
+
+        <div class="container">
+            <div class="row row-lg-eq-height">
+
+                <!-- Details -->
+                <div class="col-lg-12 wow fadeInRight" data-wow-duration="800ms" data-wow-delay="800ms">
+                    <div class="contact_details">
+                        <div class="contact_details_title">Contactos</div>
+                        <ul>
+                            <li>
+                                <svg fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z" />
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z" />
+                                </svg>
+                                <span>7:00 - 16:30 </span>
+                            </li>
+                            <li>
+                                <svg fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                                </svg>
+                                <span>+244 931 184 595 | 241 223 894</span>
+                            </li>
+                            <li>
+                                <svg fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                </svg>
+                                <span>cepph@cepph.com</span>
+                            </li>
+                            <li>
+                                <svg fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                </svg>
+                                <span>Rua Vicente Ferreira - Huambo - Angola</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
