@@ -296,14 +296,13 @@ Aditional css format
 }
 
 .calendar-entry .course_body {
-    border-top: solid 2px yellow;
-    background-color: #cb2e2e;
+    background-color: #2b7fd0;
     height: 120%;
 }
 
 .event_date {
-    background-color: #cb2e2e;
-    border: solid #cb2e2e;
+    background-color: #2b7fd0;
+    border: solid #fff;
 }
 
 .event_day, .event_month {
@@ -322,7 +321,7 @@ Aditional css format
 
 .calendar-text {
     text-align: center;
-    color: #cb2e2e;
+    color: #2b7fd0;
     font-size: 30px;
     font-weight: bold;
 }
