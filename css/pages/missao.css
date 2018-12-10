@@ -1,0 +1,39 @@
+#calendario {
+    padding-top: 60px;
+}
+
+#home-slider {
+    height: 300px;
+}
+
+#home-slider .caption {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#home-slider .caption h1 {
+  color: #fff;
+  font-size: 280%;
+  font-family: Calibri;
+}
+
+.theme-title h1 {
+    color: #2b7fd0;
+    font-size:35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.theme-body p {
+    color : #2b7fd0;
+    text-align: justify;
+}
+
+.quote-owner {
+    color: #2b7fd0;
+}
+
+
