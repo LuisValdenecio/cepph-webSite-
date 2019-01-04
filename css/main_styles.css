@@ -489,8 +489,8 @@ section
 }
 .main_nav li a
 {
-	font-size: 15px;
-	font-weight: 500;
+	font-size: 18px;
+	font-weight: 600;
 	color: #2e21df;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -498,6 +498,11 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
+
+.main_nav li a i {
+    font-weight: bold;
+}
+
 .main_nav li a:hover,
 .main_nav li.active a
 {
