@@ -11,12 +11,19 @@ jQuery(function($) {'use strict';
     // wow.js being initiated
     new WOW().init();
 
-    // the register section
-    var registerSection = $('.register');
-
     // match the intervals at which the image loader changes with the textual content
     var allCarousellsItems = $('.carousel-inner .item');
+    var carouselElements = allCarousellsItems.length;
 
+    if (allCarousellsItems[0].classList[1] == "active") alert("the 1st is up");
+
+    for (let counter = 0; counter < carouselElements; counter++) {
+        console.log(allCarousellsItems[counter]);
+
+        
+
+
+    }
     
 
         

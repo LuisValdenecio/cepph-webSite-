@@ -1,3 +1,39 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,600,700,800,900');
+
+/*********************************
+2. Body and some general stuff
+*********************************/
+
+body
+{
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Courses Page
+--------------------------------------------------------------*/
+.page-header {
+    background-size: cover !important;
+}
+
+.courses-page .page-header {
+    background: url("../img/slider/08.JPG") no-repeat center;
+}
+
+.page-header-overlay {
+    background: #2b7fd0;
+    height: 360px;
+    padding-top: 236px;
+}
+
+.page-header h1 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
 #calendario {
     padding-top: 60px;
 }
