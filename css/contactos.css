@@ -27,8 +27,8 @@ body
     height: 105px;
     border-radius: 5px;
     background: #61ba6d;
-    background: -webkit-linear-gradient(to right, #2b7fd0, #60a6ea);
-    background: linear-gradient(to right, #2b7fd0, #60a6ea);
+    background: -webkit-linear-gradient(to right,#cbcc4e, #e6e6a0);
+    background: linear-gradient(to right,#cbcc4e, #e6e6a0);
     position: absolute;
     bottom: -60px;
     -webkit-transform: translateX(-50%);
@@ -50,7 +50,7 @@ body
 
 /* Contact Area CSS */
 .contact-content {
-  background-color: #23619c;
+  background-color: #cbcc4e;
   padding: 100px 50px;
   margin-top: 400px;
  
@@ -80,7 +80,7 @@ body
     .contact-content .contact-form-area .form-control {
       height: 55px;
       width: 100%;
-      background-color: #23619c;
+      background-color: #cbcc4e;
       font-size: 15px;
       color : #ffffff;
       font-style: italic;
@@ -113,7 +113,7 @@ body
  }
 
  .academy-btn {
-    background : #23619c;
+    background : #cbcc4e;
     color : #ffffff;
     cursor: pointer; 
 }

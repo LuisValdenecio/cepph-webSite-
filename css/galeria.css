@@ -27,8 +27,8 @@ body
     height: 105px;
     border-radius: 5px;
     background: #61ba6d;
-    background: -webkit-linear-gradient(to right, #2b7fd0, #60a6ea);
-    background: linear-gradient(to right, #2b7fd0, #60a6ea);
+    background: -webkit-linear-gradient(to right,#cbcc4e, #e6e6a0);
+    background: linear-gradient(to right,#cbcc4e, #e6e6a0);
     position: absolute;
     bottom: -60px;
     -webkit-transform: translateX(-50%);
@@ -49,7 +49,7 @@ body
 
 /* Footer Area CSS */
 .main-footer-area {
-  background-color: #23619c;
+  background-color: #ebebae;
   padding-top: 400px;
 }
   .main-footer-area .footer-widget .widget-title {

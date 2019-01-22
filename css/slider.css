@@ -30,8 +30,8 @@
   -webkit-transition: all 500ms;
   transition: all 500ms;
   background: #61ba6d;
-  background-image: -webkit-linear-gradient(left, #61ba6d 0%, #83c331 51%, #61ba6d 100%);
-  background-image: linear-gradient(to right, #2b7fd0 0%, #4f89c1 51%, #286671 100%);
+  background-image: -webkit-linear-gradient(to right,#cbcc4e, #e6e6a0);
+  background-image: linear-gradient(to right,#cbcc4e, #e6e6a0);
   font-weight: 600; }
   .academy-btn.btn-sm {
     min-width: 110px;
@@ -43,8 +43,8 @@
     font-weight: 600;
     color: #ffffff;
     background: #61ba6d;
-    background: -webkit-linear-gradient(to right, #2b7fd0, #2b7fd0);
-    background: linear-gradient(to right, #2b7fd0, #4f89c1, #82b2e0); }
+    background: -webkit-linear-gradient(to right,#cbcc4e, #e6e6a0);
+    background: linear-gradient(to right,#cbcc4e, #bdbd75); }
   .academy-btn.btn-2 {
     background: #141414; }
     .academy-btn.btn-2:hover, .academy-btn.btn-2:focus {
@@ -102,8 +102,8 @@
   .hero-slides .owl-prev,
   .hero-slides .owl-next {
     background: #61ba6d;
-    background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
-    background: linear-gradient(to right, #61ba6d, #83c331);
+    background: -webkit-linear-gradient(to right,#cbcc4e, #e6e6a0);
+    background: linear-gradient(to right,#cbcc4e, #e6e6a0);
     width: 56px;
     height: 56px;
     line-height: 56px;

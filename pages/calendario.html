@@ -10,12 +10,13 @@
     <meta name="author" content="" />
     <title>Complexo Escolar Privado Polit�cnico do Huambo</title>
     
-    <!--////////////////// Bootstrap FOUR //////////////////////////-->
+    <!--////////////////////// Bootstrap FOUR ///////////////////////////////-->
     <link rel="stylesheet" type="text/css" href="../css/boootstrap.min.css">
 
-    <link href="../css/animate.min.css" rel="stylesheet" />
+    <!--//////////////////////// galeria de fotos /////////////////////////////-->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
     <link href="../css/font-awesome.min.css" rel="stylesheet" />
-    <link href="../css/lightbox.css" rel="stylesheet" />
     <link href="../css/customStyle.css" rel="stylesheet" />
     <link href="../css/main.css" rel="stylesheet" />
     <link href="../css/blog.css" rel="stylesheet" />
@@ -23,11 +24,7 @@
     <!-- /////////////////////// responsive format ////////////////////////// -->
     <link rel="stylesheet" type="text/css" href="../css/RResponsive.css">
     <!-- //////////////////////////////////////////////////////////////////// -->
-
-    <!--/////////////////// themify-icons CSS //////////////////////-->
-    <link rel="stylesheet" href="../css/themify-icons.css">
-
-    <!--/////////////////// The navbar /////////////////////////////-->
+    <!--/////////////////////// The navbar //////////////////////////////////-->
     <link rel="stylesheet" type="text/css" href="../css/main_styles.css">
 
     <!--////////////////// estilo para esta página ////////////////-->
@@ -138,9 +135,17 @@
 
                                 </ul>
                             </nav>
+
+                            <!-- ////////////////// for responsive stuff  ///////////////////// -->
                             <div class="header_content_right ml-auto text-right">
 
+                                <div class="hamburger menu_mm">
+                                    <i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+                                </div>
+
                             </div>
+
+                           
                         </div>
                     </div>
                 </div>
@@ -149,6 +154,33 @@
 
 
     </header>
+
+    <!-- //////////////////// The actual responsive menu starts here ////////////////////  -->
+    <div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+        <div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+
+        <nav class="menu_nav">
+            <ul class="menu_mm">
+                <li class="menu_mm"><a href="../index.html">Início</a></li>
+                <li class="menu_mm"><a href="calendario.html">Calendário</a></li>
+                <li class="menu_mm"><a href="historia.html">Historia</a></li>
+                <li class="menu_mm"><a href="mensagem.html">Mensagem</a></li>
+                <li class="menu_mm"><a href="missao.html">Missão</a></li>
+                <li class="menu_mm"><a href="cursos.html">Cursos</a></li>
+                <li class="menu_mm"><a href="galeria.html">Galeria</a></li>
+                <li class="menu_mm"><a href="noticias.html">Notícias</a></li>
+                <li class="menu_mm"><a href="contactos.html">Contactos</a></li>
+                <li class="menu_mm"><a href="FAQ.html">FAQ</a></li>
+            </ul>
+        </nav>
+        <div class="menu_extra">
+            <div class="menu_phone"><span class="menu_title">Telefones:<br /></span>+244 300 303 0266 | +244 300 303 0266</div>
+            <div class="menu_phone"><span class="menu_title">Email:<br /></span>cepph@cepph.com</div>
+            <div class="menu_phone"><span class="menu_title">Endereço:<br /></span>Rua Vicente Ferreira</div>
+        </div>
+    </div>
+
+
 
     <!-- ##### Breadcumb Area Start ##### -->
     <div class="breadcumb-area bg-img" style="background-image: url(https://previsao.com/wp-content/uploads/2017/01/calendarbackdrop.jpg);">
@@ -237,6 +269,7 @@
 
     <!-- //////////////// scripts for calendar ////////////////////////// -->
     <script src="../js/calendar.js"></script>
+    <script src="../js/custom.js"></script>
 
 </body>
 </html>
