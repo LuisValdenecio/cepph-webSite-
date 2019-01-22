@@ -10,23 +10,29 @@
     <meta name="author" content="" />
     <title>galeria de fotografias e vídeos</title>
    
-    <!--/////////////////// Bootstrap FOUR ////////////////////-->
+    <!--////////////////////// Bootstrap FOUR ///////////////////////////////-->
     <link rel="stylesheet" type="text/css" href="../css/boootstrap.min.css">
 
-    <link href="../css/animate.min.css" rel="stylesheet" />
+    <!--//////////////////////// galeria de fotos /////////////////////////////-->
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+
     <link href="../css/font-awesome.min.css" rel="stylesheet" />
-    <link href="../css/lightbox.css" rel="stylesheet" />
-    <link href="../css/responsive.css" rel="stylesheet" />
     <link href="../css/customStyle.css" rel="stylesheet" />
     <link href="../css/main.css" rel="stylesheet" />
-  
-    <!--/////////////////// themify-icons CSS ////////////////-->
-    <link rel="stylesheet" href="../css/themify-icons.css">
+    <link href="../css/blog.css" rel="stylesheet" />
+
+    <!-- /////////////////////// responsive format ////////////////////////// -->
+    <link rel="stylesheet" type="text/css" href="../css/RResponsive.css">
+    <!-- //////////////////////////////////////////////////////////////////// -->
+    <!--/////////////////////// The navbar //////////////////////////////////-->
+    <link rel="stylesheet" type="text/css" href="../css/main_styles.css">
 
     <!--/////////////////// The navbar ///////////////////////-->
     <link rel="stylesheet" type="text/css" href="../css/main_styles.css">
 
     <!-- ////////////////// formataçao de galeria //////////////// -->
+    <link rel="stylesheet" type="text/css" href="../css/magnific-popup.css" />  
+    <link rel="stylesheet" type="text/css" href="../css/classy-nav.min.css" /> 
     <link rel="stylesheet" type="text/css" href="../css/galeria.css" />  
 
     <!--[if lt IE 9]>
@@ -81,16 +87,15 @@
                             <nav class="main_nav_contaner">
                                 <ul class="main_nav">
                                     <li><a href="../index.html">Início</a></li>
-                                    <li><a href="calendario.html">Calendário</a></li>
+                                    <li><a href="../pages/calendario.html">Calendário</a></li>
                                     <li class="">
                                         <ul class="lang_list">
                                             <li class="hassubs">
                                                 <a href="#">Institucional<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                                 <ul>
-                                                    <li><a href="historia.html">Historia</a></li>
-                                                    <li><a href="parceria.html">Parcerias</a></li>
-                                                    <li><a href="mensagem.html">Mensagem</a></li>
-                                                    <li><a href="missao.html">Missão</a></li>
+                                                    <li><a href="../pages/historia.html">Historia</a></li>
+                                                    <li><a href="../pages/mensagem.html">Mensagem</a></li>
+                                                    <li><a href="../pages/missao.html">Missão</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -99,13 +104,7 @@
                                     <li>
                                         <ul class="lang_list">
                                             <li class="hassubs">
-                                                <a href="#">Cursos<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                                <ul>
-                                                    <li><a href="cursos.html">Ensino Geral</a></li>
-                                                    <li><a href="cursos.html">Contabilidade</a></li>
-                                                    <li><a href="cursos.html">Informática</a></li>
-                                                    <li><a href="cursos.html">OCC</a></li>
-                                                </ul>
+                                                <a href="../pages/cursos.html">Cursos</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -117,27 +116,34 @@
                                                 <a href="#contactos">A Escola <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                                 <ul>
                                                     <li>
-                                                        <a href="galeria.html">Galeria</a>
+                                                        <a href="../pages/galeria.html">Galeria</a>
                                                     </li>
-                                                    <li><a href="noticias.html">Notícias</a></li>
+                                                    <li><a href="../pages/noticias.html">Notícias</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </li>
 
                                     <li>
-                                        <a href="contactos.html">Contactos</a>
+                                        <a href="../pages/contactos.html">Contactos</a>
                                     </li>
 
                                     <li>
-                                        <a href="pages/contactos.html">FAQ</a>
+                                        <a href="../pages/FAQ.html">FAQ</a>
                                     </li>
 
                                 </ul>
                             </nav>
+                            
+                            <!-- ////////////////// for responsive stuff  ///////////////////// -->
                             <div class="header_content_right ml-auto text-right">
 
+                                <div class="hamburger menu_mm">
+                                    <i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+                                </div>
+
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -145,13 +151,194 @@
         </div>
     </header>
 
-    <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img" style="background-image: url(../img/slider/1.jpg);">
-        <div class="bradcumbContent">
-            <h2>Galeria</h2>
+    <!-- //////////////////// The actual responsive menu starts here ////////////////////  -->
+    <div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+        <div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+
+        <nav class="menu_nav">
+            <ul class="menu_mm">
+                <li class="menu_mm"><a href="index.html">Início</a></li>
+                <li class="menu_mm"><a href="pages/calendario.html">Calendário</a></li>
+                <li class="menu_mm"><a href="pages/historia.html">Historia</a></li>
+                <li class="menu_mm"><a href="pages/mensagem.html">Mensagem</a></li>
+                <li class="menu_mm"><a href="pages/missao.html">Missão</a></li>
+                <li class="menu_mm"><a href="pages/cursos.html">Cursos</a></li>
+                <li class="menu_mm"><a href="pages/galeria.html">Galeria</a></li>
+                <li class="menu_mm"><a href="pages/noticias.html">Notícias</a></li>
+                <li class="menu_mm"><a href="pages/contactos.html">Contactos</a></li>
+                <li class="menu_mm"><a href="pages/FAQ.html">FAQ</a></li>
+            </ul>
+        </nav>
+        <div class="menu_extra">
+            <div class="menu_phone"><span class="menu_title">Telefones:<br /></span>+244 300 303 0266 | +244 300 303 0266</div>
+            <div class="menu_phone"><span class="menu_title">Email:<br /></span>cepph@cepph.com</div>
+            <div class="menu_phone"><span class="menu_title">Endereço:<br /></span>Rua Vicente Ferreira</div>
         </div>
     </div>
 
+    <!-- ##### Breadcumb Area Start ##### -->
+    <div class="breadcumb-area bg-img" style="background-image: url(../img/slider/1.jpg);">
+        <div class="bradcumbContent">
+            <h2>Fotos & vídeos</h2>
+        </div>
+    </div>
+
+
+    <!-- //////////////////////////////////////////////////////////////////////////--->
+    <div class="main-footer-area section-padding-100-0">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Widget Area -->
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="footer-widget mb-100">
+                        <div class="widget-title">
+                            <h6><mark>Fotos sem filtro</mark></h6>
+                        </div>
+                        <div class="gallery-list d-flex justify-content-between flex-wrap">
+                            <a href="../img/slider/1.jpg" class="gallery-img" title="Gallery Image 1"><img src="../img/slider/1.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery2.jpg" class="gallery-img" title="Gallery Image 2"><img src="../img/slider/1.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery3.jpg" class="gallery-img" title="Gallery Image 3"><img src="../img/slider/2.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery4.jpg" class="gallery-img" title="Gallery Image 4"><img src="../img/slider/3.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery5.jpg" class="gallery-img" title="Gallery Image 5"><img src="../img/slider/4.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery6.jpg" class="gallery-img" title="Gallery Image 6"><img src="../img/slider/5.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery4.jpg" class="gallery-img" title="Gallery Image 4"><img src="../img/slider/7.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery5.jpg" class="gallery-img" title="Gallery Image 5"><img src="../img/slider/8.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery6.jpg" class="gallery-img" title="Gallery Image 6"><img src="../img/slider/9.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="footer-widget mb-100">
+                        <div class="widget-title">
+                            <h6><mark>Fotos do Ensino Primário</mark></h6>
+                        </div>
+                        <div class="gallery-list d-flex justify-content-between flex-wrap">
+                            <a href="../img/slider/1.jpg" class="gallery-img" title="Gallery Image 1"><img src="../img/slider/10.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery2.jpg" class="gallery-img" title="Gallery Image 2"><img src="../img/slider/11.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery3.jpg" class="gallery-img" title="Gallery Image 3"><img src="../img/slider/12.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery4.jpg" class="gallery-img" title="Gallery Image 4"><img src="../img/slider/13.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery5.jpg" class="gallery-img" title="Gallery Image 5"><img src="../img/slider/14.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery6.jpg" class="gallery-img" title="Gallery Image 6"><img src="../img/slider/15.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery4.jpg" class="gallery-img" title="Gallery Image 4"><img src="../img/slider/7.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery5.jpg" class="gallery-img" title="Gallery Image 5"><img src="../img/slider/8.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery6.jpg" class="gallery-img" title="Gallery Image 6"><img src="../img/slider/9.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="footer-widget mb-100">
+                        <div class="widget-title">
+                            <h6><mark>Fotos do Primeiro ciclo</mark></h6>
+                        </div>
+                        <div class="gallery-list d-flex justify-content-between flex-wrap">
+                            <a href="../img/slider/1.jpg" class="gallery-img" title="Gallery Image 1"><img src="../img/slider/1.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery2.jpg" class="gallery-img" title="Gallery Image 2"><img src="../img/slider/1.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery3.jpg" class="gallery-img" title="Gallery Image 3"><img src="../img/slider/2.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery4.jpg" class="gallery-img" title="Gallery Image 4"><img src="../img/slider/3.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery5.jpg" class="gallery-img" title="Gallery Image 5"><img src="../img/slider/4.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery6.jpg" class="gallery-img" title="Gallery Image 6"><img src="../img/slider/5.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery4.jpg" class="gallery-img" title="Gallery Image 4"><img src="../img/slider/7.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery5.jpg" class="gallery-img" title="Gallery Image 5"><img src="../img/slider/8.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery6.jpg" class="gallery-img" title="Gallery Image 6"><img src="../img/slider/9.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="footer-widget mb-100">
+                        <div class="widget-title">
+                            <h6><mark>Fotos do Ensino Técnico</mark></h6>
+                        </div>
+                        <div class="gallery-list d-flex justify-content-between flex-wrap">
+                            <a href="../img/slider/1.jpg" class="gallery-img" title="Gallery Image 1"><img src="../img/slider/1.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery2.jpg" class="gallery-img" title="Gallery Image 2"><img src="../img/slider/1.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery3.jpg" class="gallery-img" title="Gallery Image 3"><img src="../img/slider/2.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery4.jpg" class="gallery-img" title="Gallery Image 4"><img src="../img/slider/3.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery5.jpg" class="gallery-img" title="Gallery Image 5"><img src="../img/slider/4.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery6.jpg" class="gallery-img" title="Gallery Image 6"><img src="../img/slider/5.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery4.jpg" class="gallery-img" title="Gallery Image 4"><img src="../img/slider/7.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery5.jpg" class="gallery-img" title="Gallery Image 5"><img src="../img/slider/8.jpg" alt=""></a>
+                            <a href="img/bg-img/gallery6.jpg" class="gallery-img" title="Gallery Image 6"><img src="../img/slider/9.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <!-- Footer Widget Area -->
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-sm-6 col-lg-6">
+                    <div class="footer-widget mb-100">
+                        <div class="widget-title">
+                            <h6><mark>Vídeos do teatro</mark></h6>
+                        </div>
+                        <div class="gallery-list d-flex justify-content-between flex-wrap">
+                            
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <iframe width="200" height="100" class="gallery-img" title="Gallery Image 6" src="https://www.youtube.com/embed/Si0ZHJdlu9M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <iframe width="200" height="100" class="gallery-img" title="Gallery Image 6" src="https://www.youtube.com/embed/Si0ZHJdlu9M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+
+                             
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-sm-6 col-lg-6">
+                    <div class="footer-widget mb-100">
+                        <div class="widget-title">
+                            <h6><mark>Vídeos das Actividades extra-curriculares</mark></h6>
+                        </div>
+                        <div class="gallery-list d-flex justify-content-between flex-wrap">
+                          
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <iframe width="200" height="100" class="gallery-img" title="Gallery Image 6" src="https://www.youtube.com/embed/Si0ZHJdlu9M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                                      
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <iframe width="200" height="100" class="gallery-img" title="Gallery Image 6" src="https://www.youtube.com/embed/Si0ZHJdlu9M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <iframe width="200" height="100" class="gallery-img" title="Gallery Image 6" src="https://www.youtube.com/embed/Si0ZHJdlu9M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <iframe width="200" height="100" class="gallery-img" title="Gallery Image 6" src="https://www.youtube.com/embed/Si0ZHJdlu9M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <iframe width="200" height="100" class="gallery-img" title="Gallery Image 6" src="https://www.youtube.com/embed/Si0ZHJdlu9M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
 
 
     
@@ -163,15 +350,13 @@
 
     <script type="text/javascript" src="../js/lightbox.min.js"></script>
     <script type="text/javascript" src="../js/wow.min.js"></script>
-    <script type="text/javascript" src="../js/main.js"></script>
+   
 
     <!-- //////////////// scripts para a galeria /////////////////////// -->
-    <script src="../js/jquery.poptrox.min.js"></script>
-    <script src="../js/browser.min.js"></script>
-    <script src="../js/breakpoints.min.js"></script>
-    <script src="../js/util.js"></script>
-    <script src="../js/galeryMain.js"></script>
-    <!-- ///////////////// fim dos script para galeria //////////////// -->
+    <script src="../js/plugins.js"></script>
+    <script src="../js/active.js"></script>
+
+    <script src="../js/custom.js"></script>
 
 </body>
 </html>

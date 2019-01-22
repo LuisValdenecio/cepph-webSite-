@@ -27,8 +27,8 @@ body
     height: 105px;
     border-radius: 5px;
     background: #61ba6d;
-    background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
-    background: linear-gradient(to right, #61ba6d, #83c331);
+    background: -webkit-linear-gradient(to right, #2b7fd0, #60a6ea);
+    background: linear-gradient(to right, #2b7fd0, #60a6ea);
     position: absolute;
     bottom: -60px;
     -webkit-transform: translateX(-50%);
@@ -50,7 +50,7 @@ body
 
 /* Contact Area CSS */
 .contact-content {
-  background-color: #eef3f6;
+  background-color: #23619c;
   padding: 100px 50px;
   margin-top: 400px;
  
@@ -61,13 +61,13 @@ body
   .contact-content .section-heading {
     margin-bottom: 30px !important; }
   .contact-content .contact-social-info a {
-    color: #69bc5f;
+    color: #ffffff;
     display: inline-block;
     margin-right: 30px; }
   .contact-content .contact-icon i {
     padding-top: 5px;
     display: inline-block;
-    color: #69bc5f; }
+    color: #ffffff }
   .contact-content .contact-form-area {
     padding: 40px 20px;
     background-color: #ffffff; }
@@ -80,8 +80,9 @@ body
     .contact-content .contact-form-area .form-control {
       height: 55px;
       width: 100%;
-      background-color: #eef3f6;
-      font-size: 12px;
+      background-color: #23619c;
+      font-size: 15px;
+      color : #ffffff;
       font-style: italic;
       margin-bottom: 15px;
       border: none;
@@ -97,11 +98,25 @@ body
   letter-spacing: 2px;
   text-transform: uppercase;
   display: block;
-  color: #8e8e8e;
+  color: #ffffff;
   margin-bottom: 15px; }
 
 .single-pie-bar h6 {
   font-weight: 500; }
+
+.section-heading h3, .section-heading p {
+    color: #ffffff;
+}
+
+ .address-info {
+     color : #ffffff;
+ }
+
+ .academy-btn {
+    background : #23619c;
+    color : #ffffff;
+    cursor: pointer; 
+}
 
 .single-cool-fact {
   position: relative;
@@ -110,7 +125,7 @@ body
     font-size: 45px;
     margin-bottom: 30px;
     display: block;
-    color: #69bc5f; }
+    color: #ffffff; }
   .single-cool-fact h3 {
     font-size: 48px;
     font-weight: 400;
@@ -134,7 +149,7 @@ body
   .single-accordion h6 a {
     background-color: #f5f7fa;
     border-radius: 0;
-    color: #141414;
+    color: #ffffff;
     display: block;
     margin: 0;
     padding: 20px 60px 20px 20px;

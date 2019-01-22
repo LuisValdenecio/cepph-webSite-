@@ -9,29 +9,40 @@
                 pelo grupo Gustave Effiel e seus associados." />
     <meta name="author" content="" />
     <title>Complexo Escolar Privado Polit�cnico do Huambo</title>
-    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    
+    <!--////////////////// Bootstrap FOUR //////////////////////////-->
+    <link rel="stylesheet" type="text/css" href="../css/boootstrap.min.css">
 
     <link href="../css/animate.min.css" rel="stylesheet" />
     <link href="../css/font-awesome.min.css" rel="stylesheet" />
     <link href="../css/lightbox.css" rel="stylesheet" />
-    <link href="../css/responsive.css" rel="stylesheet" />
     <link href="../css/customStyle.css" rel="stylesheet" />
     <link href="../css/main.css" rel="stylesheet" />
     <link href="../css/blog.css" rel="stylesheet" />
 
-    <!-- themify-icons CSS -->
+    <!-- /////////////////////// responsive format ////////////////////////// -->
+    <link rel="stylesheet" type="text/css" href="../css/RResponsive.css">
+    <!-- //////////////////////////////////////////////////////////////////// -->
+
+    <!--/////////////////// themify-icons CSS //////////////////////-->
     <link rel="stylesheet" href="../css/themify-icons.css">
 
-    <!-- The navbar -->
+    <!--/////////////////// The navbar /////////////////////////////-->
     <link rel="stylesheet" type="text/css" href="../css/main_styles.css">
 
-    <!-- Bootstrap FOUR -->
-    <link rel="stylesheet" type="text/css" href="../css/boootstrap.min.css">
+    <!--////////////////// estilo para esta página ////////////////-->
+    <link href="../css/pages/missao.css" rel="stylesheet" />
+
+    <link href="../css/pages/missao.css" rel="stylesheet" />
+
+    <!-- //////////////////// calendar stuff /////////////////////// -->
+    <link href="../css/pages/calendar.css" rel="stylesheet" />
 
     <!--[if lt IE 9]>
         <script src="../js/html5shiv.js"></script>
         <script src="../js/respond.min.js"></script>
     <![endif]-->
+
 
 </head>
 
@@ -80,16 +91,15 @@
                             <nav class="main_nav_contaner">
                                 <ul class="main_nav">
                                     <li><a href="../index.html">Início</a></li>
-                                    <li><a href="calendario.html">Calendário</a></li>
+                                    <li><a href="../pages/calendario.html">Calendário</a></li>
                                     <li class="">
                                         <ul class="lang_list">
                                             <li class="hassubs">
                                                 <a href="#">Institucional<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                                 <ul>
-                                                    <li><a href="historia.html">Historia</a></li>
-                                                    <li><a href="parceria.html">Parcerias</a></li>
-                                                    <li><a href="mensagem.html">Mensagem</a></li>
-                                                    <li><a href="missao.html">Missão</a></li>
+                                                    <li><a href="../pages/historia.html">Historia</a></li>
+                                                    <li><a href="../pages/mensagem.html">Mensagem</a></li>
+                                                    <li><a href="../pages/missao.html">Missão</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -98,13 +108,7 @@
                                     <li>
                                         <ul class="lang_list">
                                             <li class="hassubs">
-                                                <a href="#">Cursos<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                                <ul>
-                                                    <li><a href="cursos.html">Ensino Geral</a></li>
-                                                    <li><a href="cursos.html">Contabilidade</a></li>
-                                                    <li><a href="cursos.html">Informática</a></li>
-                                                    <li><a href="cursos.html">OCC</a></li>
-                                                </ul>
+                                                <a href="../pages/cursos.html">Cursos</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -116,17 +120,22 @@
                                                 <a href="#contactos">A Escola <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                                 <ul>
                                                     <li>
-                                                        <a href="galeria.html">Galeria</a>
+                                                        <a href="../pages/galeria.html">Galeria</a>
                                                     </li>
-                                                    <li><a href="noticias.html">Notícias</a></li>
+                                                    <li><a href="../pages/noticias.html">Notícias</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </li>
 
                                     <li>
-                                        <a href="contactos.html">Contactos</a>
+                                        <a href="../pages/contactos.html">Contactos</a>
                                     </li>
+
+                                    <li>
+                                        <a href="../pages/FAQ.html">FAQ</a>
+                                    </li>
+
                                 </ul>
                             </nav>
                             <div class="header_content_right ml-auto text-right">
@@ -137,6 +146,97 @@
                 </div>
             </div>
         </div>
+
+
     </header>
+
+    <!-- ##### Breadcumb Area Start ##### -->
+    <div class="breadcumb-area bg-img" style="background-image: url(https://previsao.com/wp-content/uploads/2017/01/calendarbackdrop.jpg);">
+        <div class="bradcumbContent">
+            <h2>Calendário</h2>
+        </div>
+    </div>
+
+    <div class="calendar" id="calendar-app" style="margin-top:400px">
+        <div class="calendar--day-view" id="day-view">
+            <span class="day-view-exit" id="day-view-exit">&times;</span>
+            <span class="day-view-date" id="day-view-date">MAY 29 2016</span>
+            <div class="day-view-content">
+                <div class="day-highlight">
+                    You <span class="day-events" id="day-events">had no events for today</span>. &nbsp; <span tabindex="0" onkeyup="if(event.keyCode != 13) return; this.click();" class="day-events-link" id="add-event" data-date>Add a new event?</span>
+                </div>
+                <div class="day-add-event" id="add-day-event-box" data-active="false">
+                    <div class="row">
+                        <div class="half">
+                            <label class="add-event-label">
+                                Name of event
+                                <input type="text" class="add-event-edit add-event-edit--long" placeholder="New event" id="input-add-event-name">
+
+                            </label>
+                        </div>
+                        <div class="qtr">
+                            <label class="add-event-label">
+                                Start Time
+                                <input type="text" class="add-event-edit" placeholder="8:15" id="input-add-event-start-time" data-options="1,2,3,4,5,6,7,8,9,10,11,12" data-format="datetime">
+                                <input type="text" class="add-event-edit" placeholder="am" id="input-add-event-start-ampm" data-options="a,p,am,pm">
+                            </label>
+                        </div>
+                        <div class="qtr">
+                            <label class="add-event-label">
+                                End Time
+                                <input type="text" class="add-event-edit" placeholder="9" id="input-add-event-end-time" data-options="1,2,3,4,5,6,7,8,9,10,11,12" data-format="datetime">
+                                <input type="text" class="add-event-edit" placeholder="am" id="input-add-event-end-ampm" data-options="a,p,am,pm">
+                            </label>
+                        </div>
+                        <div class="half">
+                            <a onkeyup="if(event.keyCode != 13) return; this.click();" tabindex="0" id="add-event-save" class="event-btn--save event-btn">save</a>
+                            <a tabindex="0" id="add-event-cancel" class="event-btn--cancel event-btn">cancel</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="day-events-list" class="day-events-list">
+
+                </div>
+                <div class="day-inspiration-quote" id="inspirational-quote">
+                    Every child is an artist.  The problem is how to remain an artist once he grows up. –Pablo Picasso
+                </div>
+            </div>
+        </div>
+        <div class="calendar--view" id="calendar-view">
+            <div class="cview__month">
+                <span class="cview__month-last" id="calendar-month-last">Abr</span>
+                <span class="cview__month-current" id="calendar-month">Mai</span>
+                <span class="cview__month-next" id="calendar-month-next">Jun</span>
+            </div>
+            <div class="cview__header">Dom</div>
+            <div class="cview__header">Seg</div>
+            <div class="cview__header">Ter</div>
+            <div class="cview__header">Qua</div>
+            <div class="cview__header">Qui</div>
+            <div class="cview__header">Sex</div>
+            <div class="cview__header">Sab</div>
+            <div class="calendar--view" id="dates">
+            </div>
+        </div>
+        <div class="footer_">
+            <span><span id="footer-date" class="footer__link">Today is Mai 30</span></span>
+        </div>
+    </div>
+
+    <!-- //////////////////////        Fim do Html da galeria         ///////////////////////////////////// -->
+    <!-- External Scripts -->
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="../js/lightbox.min.js"></script>
+    <script type="text/javascript" src="../js/wow.min.js"></script>
+    <!-- //////////////// scripts para a galeria /////////////////////// -->
+    <script src="../js/plugins.js"></script>
+    <script src="../js/active.js"></script>
+
+    <!-- //////////////// scripts for calendar ////////////////////////// -->
+    <script src="../js/calendar.js"></script>
+
 </body>
 </html>
