@@ -1,0 +1,199 @@
+/* [Master Stylesheet v1.0] */
+/* :: :: 1.0 Import Fonts */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900");
+/* :: 2.0 Import All CSS */
+@import url(css/bootstrap.min.css);
+@import url(css/custom-icon.css);
+@import url(css/classy-nav.min.css);
+/* :: 3.0 Base CSS */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #242424;
+  line-height: 1.3;
+  font-weight: 700; }
+
+p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 500; }
+
+a,
+a:hover,
+a:focus {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  text-decoration: none;
+  outline: 0 solid transparent;
+  color: #141414;
+  font-weight: 600;
+  font-size: 14px; }
+
+ul,
+ol {
+  margin: 0; }
+  ul li,
+  ol li {
+    list-style: none; }
+
+img {
+  height: auto;
+  max-width: 100%; }
+
+/* Spacing */
+.mt-15 {
+  margin-top: 15px !important; }
+
+.mt-30 {
+  margin-top: 30px !important; }
+
+.mt-50 {
+  margin-top: 50px !important; }
+
+.mt-70 {
+  margin-top: 70px !important; }
+
+.mt-100 {
+  margin-top: 100px !important; }
+
+.mb-15 {
+  margin-bottom: 15px !important; }
+
+.mb-30 {
+  margin-bottom: 30px !important; }
+
+.mb-50 {
+  margin-bottom: 50px !important; }
+
+.mb-70 {
+  margin-bottom: 70px !important; }
+
+.mb-100 {
+  margin-bottom: 100px !important; }
+
+.ml-15 {
+  margin-left: 15px !important; }
+
+.ml-30 {
+  margin-left: 30px !important; }
+
+.ml-50 {
+  margin-left: 50px !important; }
+
+.mr-15 {
+  margin-right: 15px !important; }
+
+.mr-30 {
+  margin-right: 30px !important; }
+
+.mr-50 {
+  margin-right: 50px !important; }
+
+/* Height */
+.height-400 {
+  height: 400px !important; }
+
+.height-500 {
+  height: 500px !important; }
+
+.height-600 {
+  height: 600px !important; }
+
+.height-700 {
+  height: 700px !important; }
+
+.height-800 {
+  height: 800px !important; }
+
+/* Section Padding */
+.section-padding-100 {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+.section-padding-100-0 {
+  padding-top: 100px;
+  padding-bottom: 0; }
+
+.section-padding-0-100 {
+  padding-top: 0;
+  padding-bottom: 100px; }
+
+.section-padding-100-70 {
+  padding-top: 100px;
+  padding-bottom: 70px; }
+
+
+
+/* Footer Area CSS */
+.main-footer-area {
+    margin-top: 20px;
+  background-color: #c1c241; }
+  .main-footer-area .footer-widget .widget-title {
+    margin-bottom: 45px; }
+    .main-footer-area .footer-widget .widget-title h6 {
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 0;
+      color: #ffffff;
+      margin-top: 10px;
+      text-transform: uppercase; }
+  .main-footer-area .footer-widget .footer-social-info a {
+    display: inline-block;
+    color: #606060;
+    margin-right: 15px; }
+    .main-footer-area .footer-widget .footer-social-info a:hover, .main-footer-area .footer-widget .footer-social-info a:focus {
+      color: #ffffff; }
+  .main-footer-area .footer-widget .useful-links li a {
+    display: block;
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 500; }
+    .main-footer-area .footer-widget .useful-links li a:hover, .main-footer-area .footer-widget .useful-links li a:focus {
+      color: #69bc5f; }
+  .main-footer-area .footer-widget .gallery-list a {
+    position: relative;
+    z-index: 1;
+    @flex (0 0 30%);
+    max-width: 30%;
+    margin-bottom: 15px;
+    cursor: zoom-in; }
+    .main-footer-area .footer-widget .gallery-list a::after {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      content: '';
+      background-color: rgba(97, 186, 109, 0.8);
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition-duration: 500ms;
+      transition-duration: 500ms; }
+    .main-footer-area .footer-widget .gallery-list a:hover::after {
+      opacity: 1;
+      visibility: visible; }
+  .main-footer-area .footer-widget .single-contact i {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 7px; }
+  .main-footer-area .footer-widget .single-contact p {
+    margin-bottom: 0; }
+
+.bottom-footer-area {
+  background-color: #a2a32e;
+  padding: 30px 0;
+  text-align: center; }
+  .bottom-footer-area p {
+    font-size: 12px;
+    margin-bottom: 0; }
+    .bottom-footer-area p a {
+      color: #fff;
+      font-size: 12px; }
+
