@@ -56,6 +56,9 @@ body
     padding-top: 000px;
 }
 
+.breadcumb-for-index {
+  top:650px
+}
 
 .single-top-popular-course {
   position: relative;
@@ -73,6 +76,12 @@ body
     width: 54%;
     padding: 30px; }
     @media only screen and (max-width: 767px) {
+
+        .breadcumb-for-index {
+            top:400px
+        }
+
+
       .single-top-popular-course .popular-course-content {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
