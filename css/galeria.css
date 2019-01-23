@@ -27,8 +27,8 @@ body
     height: 105px;
     border-radius: 5px;
     background: #61ba6d;
-    background: -webkit-linear-gradient(to right,#cbcc4e, #e6e6a0);
-    background: linear-gradient(to right,#cbcc4e, #e6e6a0);
+    background: -webkit-linear-gradient(to right,#3792aa, #4db3ce);
+    background: linear-gradient(to right,#3792aa, #4db3ce);
     position: absolute;
     bottom: -60px;
     -webkit-transform: translateX(-50%);

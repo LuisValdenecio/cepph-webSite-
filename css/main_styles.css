@@ -41,7 +41,7 @@
 .top_bar_container
 {
 	width: 100%;
-    background: #cbcc4e;
+    background: #3792aa;
 }
 .top_bar_content
 {
@@ -240,7 +240,7 @@
 {
 	font-size: 18px;
 	font-weight: 600;
-	color: #cbcc4e;
+	color: #3792aa;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -255,5 +255,5 @@
 .main_nav li a:hover,
 .main_nav li.active a
 {
-	color: #b1b244;
+	color: #175262;
 }

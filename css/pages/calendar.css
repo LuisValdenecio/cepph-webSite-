@@ -2,8 +2,8 @@
 .calendar{
   color: #fff;
   margin: 10px auto;
-  background: -webkit-linear-gradient(to right,#cbcc4e, #e6e6a0);
-    background: linear-gradient(to right,#cbcc4e, #e6e6a0);
+  background: -webkit-linear-gradient(to right,#3792aa, #4db3ce);
+  background: linear-gradient(to right,#3792aa, #4db3ce);
   padding: 60px 40px 80px 40px;
   width: 100%;
   max-width: 1100px;
